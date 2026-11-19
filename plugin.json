@@ -1,0 +1,8 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "nowaliraza-skills",
+  "version": "0.1.0",
+  "description": "Agent skills by Ali Raza.",
+  "author": { "name": "Ali Raza" },
+  "repository": "https://github.com/nowaliraza/skills"
+}

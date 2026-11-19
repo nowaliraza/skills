@@ -1,0 +1,12 @@
+{
+  "name": "nowaliraza-skills",
+  "interface": { "displayName": "Ali Raza's skills" },
+  "plugins": [
+    {
+      "name": "nowaliraza-skills",
+      "source": { "source": "local", "path": "./" },
+      "policy": { "installation": "AVAILABLE" },
+      "category": "Coding"
+    }
+  ]
+}

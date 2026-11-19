@@ -1,0 +1,12 @@
+{
+  "name": "nowaliraza-skills",
+  "owner": { "name": "Ali Raza" },
+  "plugins": [
+    {
+      "name": "review-pr",
+      "source": "./",
+      "description": "Senior-level PR review with verified findings: requirement fit, regressions, security, project checks and repros, in a report you can paste to the developer.",
+      "skills": ["./skills/review-pr"]
+    }
+  ]
+}
