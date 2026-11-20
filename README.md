@@ -10,7 +10,7 @@ These skills build that responsibility into the agent’s workflow. They make it
 
 | Skill                                  | What it does                                                                                                                                                                                                                                                                                                                                                 |
 | -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [review-pr](skills/review-pr/) | Reviews a PR, branch or set of commits like a senior engineer would. It states what changed and how behaviour changes against the requirement, then hunts correctness, security and convention issues. It runs the project's checks, reproduces findings, and gives you a report to paste straight to the developer: blockers, should-fix, nits, looks-good. |
+| [review-pr](skills/review-pr/) | Reviews pull or merge requests, branches, commit ranges, and local diffs. Explains what changed and how it fits the requirement, then reports verified findings and check results. Uses hosted context when available and works with local Git alone. |
 
 ## Install
 

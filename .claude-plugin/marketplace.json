@@ -5,7 +5,7 @@
     {
       "name": "review-pr",
       "source": "./",
-      "description": "Senior-level PR review with verified findings: requirement fit, regressions, security, project checks and repros, in a report you can paste to the developer.",
+      "description": "Review pull or merge requests, branches, commit ranges, and local diffs for requirement fit, regressions, correctness, and security.",
       "skills": ["./skills/review-pr"]
     }
   ]
