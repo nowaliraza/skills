@@ -10,13 +10,16 @@ These skills build that responsibility into the agent’s workflow. They make it
 
 | Skill                                  | What it does                                                                                                                                                                                                                                                                                                                                                 |
 | -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [review-pr](skills/review-pr/) | Reviews pull or merge requests, branches, commit ranges, and local diffs. Explains what changed and how it fits the requirement, then reports verified findings and check results. Uses hosted context when available and works with local Git alone. |
+| [review-pr](skills/review-pr/) | Reviews someone else's pull or merge request, branch, or commit range. Explains what changed and how it fits the requirement, then reports verified findings and check results. Uses hosted context when available and works with local Git alone. |
+| [review-local](skills/review-local/) | Review your own changes before you commit or push. Give `review-local` your staged changes, outgoing commits, or working tree, and it runs the project’s checks against that exact version. It looks for things you didn’t mean to ship, like leftover debug code or a secret in an earlier commit. Each finding points to the code, explains why it matters, and suggests a fix. It applies fixes when you ask. |
+
+Use **review-local** on your own changes before you commit or push, and **review-pr** on someone else's change.
 
 ## Install
 
 | Agent                         | Command                                                                                        |
 | ----------------------------- | ---------------------------------------------------------------------------------------------- |
-| Claude Code                   | `/plugin marketplace add nowaliraza/skills` then `/plugin install review-pr@nowaliraza-skills` |
+| Claude Code                   | `/plugin marketplace add nowaliraza/skills` then `/plugin install review-pr@nowaliraza-skills` or `review-local@nowaliraza-skills` |
 | GitHub Copilot CLI            | `/plugin marketplace add nowaliraza/skills` (reads `.claude-plugin/marketplace.json`)          |
 | Codex CLI                     | `codex plugin marketplace add nowaliraza/skills`                                               |
 | Gemini CLI                    | `gemini extensions install https://github.com/nowaliraza/skills`                               |

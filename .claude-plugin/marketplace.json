@@ -5,8 +5,14 @@
     {
       "name": "review-pr",
       "source": "./",
-      "description": "Review pull or merge requests, branches, commit ranges, and local diffs for requirement fit, regressions, correctness, and security.",
+      "description": "Review someone else's pull or merge request, branch, or commit range for requirement fit, regressions, correctness, and security.",
       "skills": ["./skills/review-pr"]
+    },
+    {
+      "name": "review-local",
+      "source": "./",
+      "description": "Review your own local changes before you commit or push: requirement fit, regressions, correctness, and security, with the project's checks run and verified findings.",
+      "skills": ["./skills/review-local"]
     }
   ]
 }

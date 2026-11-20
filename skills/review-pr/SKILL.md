@@ -1,11 +1,12 @@
 ---
 name: review-pr
 description: >-
-  Review a pull or merge request, branch, commit range, or local diff for
-  requirement fit, behavior changes, correctness, regressions, and security.
-  Use for requests like "review PR 123", "review this branch", "review now",
-  or "review again", including reviews specified by URL, ticket key, commit
-  SHA, or patch.
+  Review someone else's change (a pull or merge request, branch, or commit
+  range) for requirement fit, behavior changes, correctness, regressions, and
+  security. Use for requests like "review PR 123", "review this branch",
+  "review now", or "review again", including reviews specified by URL, ticket
+  key, commit SHA, or patch. For your own uncommitted or unpushed work, use
+  review-local.
 ---
 
 # Review a change
